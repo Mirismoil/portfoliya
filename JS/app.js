@@ -1,82 +1,87 @@
 const select = document.querySelector('select');
-const allLang = ['en', 'ru', 'ue'];
+const allLang = ['en', 'ru', 'uz'];
 const langArr = {
 
     "abou": {
-        "ru": "Знате, кто я? <br> Всем привет, я Шахзод Разработчик из Джизака, Узбекистан <br> Я младший веб-разработчик. <br><br>  Помимо кодирования, есть еще несколько занятий, которыми я люблю заниматься! <br><br> Играть в игры <br>Путешествоват <br>  Изучат языков <br><br>Никогда не сдавайся!.",
-        "en": "Know Who I'M <br> Hello Everyone, <br> I am Shahriyor Developer from Jizzakh, Uzbekistan <br> I am Junior Web developer. <br><br> Apart from coding, some other activities that I love to do! <br><br> Playing Games <br> Travelling <br>Learn Language",
-        "ue": "Всім привіт, <br> я Шахріер Розробник з Джизака, Узбекистан <br> я молодший веб-розробник. <br><br> окрім кодування, я люблю займатися деякими іншими видами діяльності! <br><br> грати в ігри <br> подорожувати <br > вивчати мову"
+        "ru": " привет, я Шахзод Разработчик из Джизака, Узбекистан <br> Я младший веб-разработчик. <br><br>  Помимо кодирования, есть еще несколько занятий, которыми я люблю заниматься! <br><br> Играть в игры <br>Путешествоват <br>  Изучат языков <br><br>Никогда не сдавайся!.",
+        "en": " Hello Everyone, <br> I am Shahriyor Developer from Jizzakh, Uzbekistan <br> I am Junior Web developer. <br><br> Apart from coding, some other activities that I love to do! <br><br> Playing Games <br> Travelling <br>Learn Language",
+        "uz": "Salom! <br> Men Yuldashev Mirismoil O'zbekiston respublikasi <br> Toshkent shahrida yashiman <br> Man Junior-programistman. <br><br>Ko'p insonlar o'ylaydi It-soxa qiyind dep lekin unday emas menga o'zimning ishim yoqadi va men ishimga kuniga 6-8 soat sarflayman<br><br> Qiziqishlarim: <br> o'yin oynash <br> sayohat qilish <br > til organish"
     },
 
     "sk": {
         "ru": "Языки, которые я хорошо знаю Javascript и Node js.<br>Но у меня нету опыта.<br>Всякий раз, когда это возможно, я также применяю свою страсть к разработке продуктов с Node.js и современных библиотек и фреймворков Javascript, таких как React.js.",
-        "ue": "има",
+        "uz": "Men paski jadvalda It-sohasi bo'yicha bilgan narsalarim.<br> Bu narsalarni sizga jadval asosida qildim. <br>Siz bularni ko'rib nima bilishimni bilsangiz bo'ladi.",
         "en": "The languages I know well are Javascript and Node js.<br>But I have no experience.<br>Whenever possible, I also apply my passion to developing products with Node.js and modern Javascript libraries and frameworks, such as React.js ."
     },
     "PS": {
         "ru": "Профессиональные навыки",
-        "ue": "Професійні навички",
+        "uz": "Programistlik bo'yicha bilimlarim",
         "en": "Profesional Skills"
     },
     "home": {
         "ru": "Главная",
-        "ue": "Головна",
+        "uz": "Bosh sahifa",
         "en": "Home"
     },
     "skill2": {
         "ru": "Навыки",
-        "ue": "Навичка",
+        "uz": "Bilimlarim",
         "en": "Skills"
     },
     "fm": {
         "ru": "НАЙДИ МЕНЯ НА",
-        "ue": "ЗНАЙДИ МЕНЕ НА",
+        "uz": "Meni topish uchun",
         "en": "FIND ME ON"
     },
     "skill": {
         "ru": "Навыки",
-        "ue": "Навичка",
+        "uz": "Bilimlarim",
         "en": "Skills"
     },
 
     "work2": {
         "ru": "Проекты",
-        "ue": "Мої роботи",
+        "uz": "Qilgan ishlarim",
         "en": "Projects"
     },
     "work": {
         "ru": "Проекты",
-        "ue": "Мої роботи",
+        "uz": "Qilgan ishlarim",
         "en": "Projects"
     },
     "ab2": {
         "ru": "О мне",
-        "ue": "про мене",
+        "uz": "Men haqimda",
         "en": "About"
     },
     "ab": {
         "ru": "О мне",
-        "ue": "про мене",
+        "uz": "Men haqimda",
         "en": "About"
     },
     "hi": {
         "ru": "Привет,",
-        "ue": "Привіт",
+        "uz": "Salom",
         "en": "Hi,"
     },
     "im": {
         "ru": "я",
-        "ue": "Я   ",
+        "uz": "Men",
         "en": "I'm     "
     },
     "job": {
         "ru": "Разработчик front-end",
-        "ue": "Розробник front-end",
+        "uz": "Front-end programist",
         "en": "Front-end developper"
     },
     "rost": {
         "ru": "имя",
-        "ue": "има",
+        "uz": "ismim",
+        "en": "name"
+    },
+    "free":{
+        "ru": "имя",
+        "uz": "Murojat uchun",
         "en": "name"
     }
 }
