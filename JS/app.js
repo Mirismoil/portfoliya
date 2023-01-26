@@ -3,15 +3,15 @@ const allLang = ['en', 'ru', 'uz'];
 const langArr = {
 
     "abou": {
-        "ru": " привет, я Шахзод Разработчик из Джизака, Узбекистан <br> Я младший веб-разработчик. <br><br>  Помимо кодирования, есть еще несколько занятий, которыми я люблю заниматься! <br><br> Играть в игры <br>Путешествоват <br>  Изучат языков <br><br>Никогда не сдавайся!.",
-        "en": " Hello Everyone, <br> I am Shahriyor Developer from Jizzakh, Uzbekistan <br> I am Junior Web developer. <br><br> Apart from coding, some other activities that I love to do! <br><br> Playing Games <br> Travelling <br>Learn Language",
-        "uz": "Salom! <br> Men Yuldashev Mirismoil O'zbekiston respublikasi <br> Toshkent shahrida yashiman <br> Man Junior-programistman. <br><br>Ko'p insonlar o'ylaydi It-soxa qiyind dep lekin unday emas menga o'zimning ishim yoqadi va men ishimga kuniga 6-8 soat sarflayman<br><br> Qiziqishlarim: <br> o'yin oynash <br> sayohat qilish <br > til organish"
+        "ru": "Привет <br> Я Мирисмаил Разработчик из Ташкента, Узбекистан <br> Я Жуноир веб-разработчик. <br><br>  Я люблю свою профессию <br> Каждый день я работаю 6-8 часов <br><br>Я интересуюсь: <br>Играть Пубг <br> Путешествовать<br>Изучить языки <br>",
+        "en": "Hello <br> I am Mirismoil Developer from Toshkent, Uzbekistan <br> I am Junior Web developer. <br><br> Apart from coding, some other activities that I love to do! <br><br> My hobbies: <br> play game PUBG <br> traveling <br> leoring langueage",
+        "uz": "Salom! <br> Men Yuldashev Mirismoil O'zbekiston respublikasi <br> Toshkent shahrida yashiman <br> Man Junior-programistman. <br><br>Ko'p insonlar o'ylaydi It-soxa qiyind dep lekin unday emas menga o'zimning ishim yoqadi va men ishimga kuniga 6-8 soat sarflayman<br><br> Qiziqishlarim: <br> PUBG o'yinini oynash <br> sayohat qilish <br > til organish"
     },
 
     "sk": {
-        "ru": "Языки, которые я хорошо знаю Javascript и Node js.<br>Но у меня нету опыта.<br>Всякий раз, когда это возможно, я также применяю свою страсть к разработке продуктов с Node.js и современных библиотек и фреймворков Javascript, таких как React.js.",
+        "ru": "Я написал в низу что я знаю об программирование<br>Я очень хочу поднять моё уревен <br> я хочу изучить другие из этого",
         "uz": "Men paski jadvalda It-sohasi bo'yicha bilgan narsalarim.<br> Bu narsalarni sizga jadval asosida qildim. <br>Siz bularni ko'rib nima bilishimni bilsangiz bo'ladi.",
-        "en": "The languages I know well are Javascript and Node js.<br>But I have no experience.<br>Whenever possible, I also apply my passion to developing products with Node.js and modern Javascript libraries and frameworks, such as React.js ."
+        "en": "I'll show you what I know in the table below<br>i want to improve my knowledge and i want to have a solid knowledge of the below table and learn more"
     },
     "PS": {
         "ru": "Профессиональные навыки",
@@ -50,12 +50,12 @@ const langArr = {
         "en": "Projects"
     },
     "ab2": {
-        "ru": "О мне",
+        "ru": "Обо мне",
         "uz": "Men haqimda",
         "en": "About"
     },
     "ab": {
-        "ru": "О мне",
+        "ru": "Обо мне",
         "uz": "Men haqimda",
         "en": "About"
     },
@@ -65,7 +65,7 @@ const langArr = {
         "en": "Hi,"
     },
     "im": {
-        "ru": "я",
+        "ru": "Я",
         "uz": "Men",
         "en": "I'm     "
     },
@@ -79,10 +79,10 @@ const langArr = {
         "uz": "ismim",
         "en": "name"
     },
-    "free":{
-        "ru": "имя",
+    "free": {
+        "ru": "Для справки",
         "uz": "Murojat uchun",
-        "en": "name"
+        "en": "for reference"
     }
 }
 
