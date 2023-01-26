@@ -86,8 +86,6 @@ const langArr = {
     }
 }
 
-
-
 select.addEventListener('change', changeURLLanguage);
 
 function changeURLLanguage() {
@@ -105,9 +103,6 @@ function changeLanguage() {
         location.reload();
     }
     select.value = hash;
-    // document.querySelector('title').innerHTML = langArr ['unit'][hash];
-    // /document.querySelector('.lng-name').innerHTML = langArr['name'][hash];
-
     for (let key in langArr) {
         let elem = document.querySelector('.lng-' + key);
         if (elem) {
@@ -116,13 +111,6 @@ function changeLanguage() {
     }
 }
 changeLanguage();
-
-
-// try { 
-//     if (localStorage.getItem('theme') === 'dark')
-//     // $('html').addClass('dark');
-//     document.querySelector('html').classList.add('dark');
-// } catch (err) { }
 
 document.querySelector('.themetoggle').addEventListener('click', (event) => {
     if (localStorage.getItem('theme') === 'dark') {
@@ -144,7 +132,6 @@ function addDarkClassToHTML() {
             document.querySelector('.themetoggle span').textContent = 'dark_mode'
 
         }
-        // $('html').addClass('dark');
 
     } catch (err) { }
 }
@@ -156,28 +143,6 @@ const cursor2 = document.querySelector('.cursors2');
 document.addEventListener("mousemove", function (e) {
     cursor.style.cssText = cursor2.style.cssText = 'left:' + e.clientX + 'px; top:' + e.clientY + 'px;';
 });
-
-
-// const animeItems = document.querySelectorAll('._anim-items')
-// if(animeItems.length > 0){
-//     function animOnScroll(params0)
-// {
-//     for (let index = 0 ; index < animeItems.length ; index++){
-//         const animeItems = animeItems[index];
-//         const animeItemsHeight = animeItems.offsetHeight;
-//         const animeItemsOffset =offset (animeItems).top;
-//         const animeStart = 4;
-//     }
-// }
-
-// function offset (el){
-//     const rect = el.get
-// }
-
-
-
-// }
-
 const menuToggle = document.querySelector(".menutoggle");
 const navigation = document.querySelector(".navigation");
 
