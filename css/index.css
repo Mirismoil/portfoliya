@@ -395,18 +395,13 @@ a:hover~.cursors {
     animation: anime 0.1s infinite;
     background: #fff;
 }
-
-.web {
-    font-size: 2px;
-}
-
 .d-0:hover {
     transform: scale(1.1);
     transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s;
 }
 
 .d-0 {
-    width: 450px;
+    width: 470px;
     height: 50px;
     display: flex;
     box-shadow: 1px 1px 5px 1px;
@@ -424,7 +419,6 @@ a:hover~.cursors {
     transform: scale(0.99);
     transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
 .sk-right img {
     width: 500px;
     height: 450px;
